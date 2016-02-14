@@ -1,0 +1,11 @@
+#start branch rebasing
+
+Rebasing is usefull when you need to group multiple commits into
+a single one
+
+You just make changes, and git add / commit. After all the
+commits are made, you group them into a single one, using the command:
+
+git rebase -i HEAD~3
+
+For example the above rebase command rebases the this + -2 commits in history (3 commits in total)
