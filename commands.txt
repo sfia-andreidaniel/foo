@@ -40,3 +40,5 @@ A. Automatically. The work on server is ahead of your work.
 	(3) git add/push again
 
 B. 
+
+C. These are some changes into master
