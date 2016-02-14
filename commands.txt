@@ -8,3 +8,13 @@ git push origin branch_name
 git fetch
 
 # Do a conflict on this file
+
+# How to solve conflicts
+
+A. By hand. The work on server is ahead of your work.
+
+(1) git pull origin branch_name
+
+(2) fix conflicts manually
+
+(3) git add/push again
