@@ -1,3 +1,8 @@
 # Create a local branch on this computer
 git checkout -b branch_name
 
+# Push a newly created branch to origin
+git push origin branch_name
+
+# Fetch the list of branches from remote
+git fetch
