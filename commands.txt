@@ -9,6 +9,16 @@ git fetch
 
 # Do a conflict on this file
 
+# How to solve conflicts
+
+A. By hand. The work on server is ahead of your work.
+
+(1) git pull origin branch_name
+
+(2) fix conflicts manually
+
+(3) git add/push again
+
 A. Automatically. The work on server is ahead of your work.
 
 (OPTIONAL): Configure a merge tool. We'll be using KDiff3 for windows.
@@ -25,4 +35,6 @@ A. Automatically. The work on server is ahead of your work.
 
 (1) git pull origin branch_name
 
-(2) 
+(2) git mergetool
+
+(3) git add/push again
