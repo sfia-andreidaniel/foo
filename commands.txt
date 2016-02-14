@@ -1,3 +1,4 @@
 # Create a local branch on this computer
 git checkout -b branch_name
 
+# Do a conflict on this file
